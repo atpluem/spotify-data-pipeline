@@ -23,6 +23,6 @@ def lambda_handler(event, context):
     client = boto3.client('s3')
     filename = 'spotify_raw_' + str(datetime.now()) + '.json'
     client.put_object(
-        Bucket='dw-snowflake-athispat',
+        Bucket='<bucket>',
         Key='spotify-data-pipeline/raw-data/to-process/' + filename,
         Body=json.dumps(spotify_data))
