@@ -37,7 +37,7 @@ def spotify_extract_data(data):
 def lambda_handler(event, context):
     
     client = boto3.client('s3')
-    bucket = 'dw-snowflake-athispat'
+    bucket = '<bucket>'
     key = 'spotify-data-pipeline/raw-data/to-process/'
     
     spotify_data = []
