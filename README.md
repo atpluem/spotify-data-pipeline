@@ -11,10 +11,10 @@ Spotify Web API enables the creation of applications that can interact with Spot
 - Power BI: an interactive data visualization software product developed by Microsoft with a primary focus on business intelligence.
 
 ## Architecture Diagram
-<img src="./images/spotify-etl.png" width="80%">
+<img src="./images/spotify-etl.png" width="100%">
 
 ## Dimensional Modelling
-<img src="./images/spotify-DimTable.png" width="80%">
+<img src="./images/spotify-DimTable.png" width="100%">
 
 ## Analysis
-<img src="./images/spotify_playlist_analysis.png" width="80%">
+<img src="./images/spotify_playlist_analysis.png" width="100%">
